@@ -1,8 +1,12 @@
 """
 {{BUILD}}
 install rust
-sudo apt install python3.X-dev
-sudo apt-get install libffi-dev
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  https://www.rust-lang.org/tools/install
+install python3-dev
+  sudo apt install python3-dev
+install libffi-dev
+  sudo apt-get install libffi-dev
 """
 from collections import namedtuple
 from concurrent.futures import ThreadPoolExecutor
